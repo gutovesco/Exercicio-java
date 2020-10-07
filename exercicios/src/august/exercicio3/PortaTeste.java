@@ -6,9 +6,9 @@ public class PortaTeste {
         Porta porta = new Porta();
 
         porta.setCor("Verniz");
-        porta.setDimensaoX(4);
-        porta.setDimensaoY(2);
-        porta.setDimensaoZ(0.6);
+        porta.setDimensaoY(5);
+        porta.setDimensaoZ(1);
+        porta.setDimensaoX(10);
         porta.setAberta(true);
 
 

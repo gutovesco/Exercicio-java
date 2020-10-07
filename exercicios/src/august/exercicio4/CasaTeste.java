@@ -8,34 +8,32 @@ public class CasaTeste {
         Casa casa = new Casa();
         Porta porta1 = new Porta();
 
-
-        porta1.setCor("Verniz");
-        porta1.setDimensaoX(4);
-        porta1.setDimensaoY(2);
-        porta1.setDimensaoZ(0.6);
-        porta1.setAberta(false);
+        porta1.setCor("vermelho");
+        porta1.setDimensaoX(5);
+        porta1.setDimensaoY(7);
+        porta1.setDimensaoZ(1);
+        porta1.setAberta(true);
 
         casa.setPorta1(porta1);
 
+
         Porta porta2 = new Porta();
 
-
-        porta2.setCor("Preto");
-        porta2.setDimensaoX(8);
-        porta2.setDimensaoY(6);
-        porta2.setDimensaoZ(1);
-        porta2.setAberta(true);
+        porta2.setCor("amarelo");
+        porta2.setDimensaoX(3);
+        porta2.setDimensaoY(1);
+        porta2.setDimensaoZ(2);
+        porta2.setAberta(false);
 
         casa.setPorta2(porta2);
 
 
         Porta porta3 = new Porta();
 
-
-        porta3.setCor("Marrom");
-        porta3.setDimensaoX(5);
-        porta3.setDimensaoY(3);
-        porta3.setDimensaoZ(2);
+        porta3.setCor("azul");
+        porta3.setDimensaoX(9);
+        porta3.setDimensaoY(1);
+        porta3.setDimensaoZ(6);
         porta3.setAberta(true);
 
         casa.setPorta3(porta3);
